@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>DocViewUI</Title>
+		<Description>用于显示实体关系图</Description>
+		<PackageProjectUrl>https://github.com/minglouguli/DocView</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/minglouguli/DocView.git</RepositoryUrl>
+	</PropertyGroup>
+
+	<Import Project="..\..\basenuget.props" />
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+		<ProjectReference Include="..\Minglouguli.DocView\Minglouguli.DocView.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="DocViewUI\**\*" Pack="true">
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None  Update="DocViewUI\**\*" Pack="true">
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

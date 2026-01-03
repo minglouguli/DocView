@@ -1,0 +1,6 @@
+@Minglouguli.DocViewExample_HostAddress = http://localhost:5042
+
+GET {{Minglouguli.DocViewExample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minglouguli.DocView", "src\Minglouguli.DocView\Minglouguli.DocView.csproj", "{888E5018-CD4C-4A09-A8F5-C950001E0D26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "confs", "confs", "{03369DE8-75D4-46D7-9109-DF90FA4FAE1F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		basenuget.props = basenuget.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minglouguli.DocViewExample", "src\Minglouguli.DocViewExample\Minglouguli.DocViewExample.csproj", "{D3D5BC78-34E7-4342-B287-4AB4700970D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minglouguli.DocViewExample6", "src\Minglouguli.DocViewExample6\Minglouguli.DocViewExample6.csproj", "{0B80ED7A-D066-4C41-8942-F38B29395F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minglouguli.DocViewUI", "src\Minglouguli.DocViewUI\Minglouguli.DocViewUI.csproj", "{E5C69304-C59C-4E57-950D-78BA5514E7AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888E5018-CD4C-4A09-A8F5-C950001E0D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888E5018-CD4C-4A09-A8F5-C950001E0D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888E5018-CD4C-4A09-A8F5-C950001E0D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888E5018-CD4C-4A09-A8F5-C950001E0D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D5BC78-34E7-4342-B287-4AB4700970D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D5BC78-34E7-4342-B287-4AB4700970D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D5BC78-34E7-4342-B287-4AB4700970D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D5BC78-34E7-4342-B287-4AB4700970D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B80ED7A-D066-4C41-8942-F38B29395F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B80ED7A-D066-4C41-8942-F38B29395F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B80ED7A-D066-4C41-8942-F38B29395F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B80ED7A-D066-4C41-8942-F38B29395F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C69304-C59C-4E57-950D-78BA5514E7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C69304-C59C-4E57-950D-78BA5514E7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C69304-C59C-4E57-950D-78BA5514E7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C69304-C59C-4E57-950D-78BA5514E7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{888E5018-CD4C-4A09-A8F5-C950001E0D26} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D3D5BC78-34E7-4342-B287-4AB4700970D2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0B80ED7A-D066-4C41-8942-F38B29395F26} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E5C69304-C59C-4E57-950D-78BA5514E7AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1876CE0D-8701-4961-8B15-CC00B9E4C6A0}
+	EndGlobalSection
+EndGlobal

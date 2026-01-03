@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Minglouguli</Authors>
+    <Company>Minglouguli</Company>
+    <Product>Minglouguli</Product>
+    <Version>1.0.2</Version>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <!--设置打包路径-->
+    <PackageOutputPath>\CodeRepository\Nuget</PackageOutputPath>
+   
+  </PropertyGroup>
+</Project>
